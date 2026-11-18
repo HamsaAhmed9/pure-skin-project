@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+   <head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap" rel="stylesheet">
+    <title>Pure Skin</title>
+   </head> 
+
+   <body>
+    
+ 
+      <header class="w-full bg-[#ffc2d1] flex justify-between items-center">
+      <a href="index.html" class="capitalize font-['Great_Vibes'] font-normal font-400 text-5xl p-8 inline-block text-[#800f2f]">pure skin</a>
+      <div class="header_Btns p-8">
+      <button class="border-[#dd2a60] hover:bg-[#dd2a60] hover:text-[#fff] hover:border-0 focus:shadow-[0px_0px_3px_5px_#bc496c]">login</button>
+      <button class="border-[#cf378b] hover:bg-[#cf378b] hover:text-[#fff] hover:border-0 focus:shadow-[0px_0px_3px_5px_#bc496c]">register</button>
+      </div>    <!-- /header_Btns -->
+
+      <div class="header_open">
+         <div class="welcome mr-5 text-[#800f2f] text-[20px] font-serif font-bold">Hello, <span> </span></div>
+         <a href="#" class="shopping_cart text-[blue] text-[20px] mr-5 hover:text-[#150d89]"><i class="fa-solid fa-cart-shopping mr-1"></i><span>0</span></a>
+         <button class="hover:bg-[red] hover:text-white hover:border-0 focus:shadow-[0px_0px_3px_5px_#d22e2e]">logout</button>
+
+         <div class="product_container">
+
+         </div>     <!-- /product_container -->
+      </div>
+
+
+      </header>
+     <main>
+      <section class="cart_sec">
+      <div class="main-search flex flex-col md:flex-row  justify-between ">
+       <select name="select-search" id="select-search" class="block focus:shadow-[2px_2px_10px_#dd2a60] md:w-[150px]">
+         <option value="search by product name" >search by product name</option>
+         <option value="search by category" >search by category</option>
+       </select>
+      <br>
+       <input type="search" placeholder="Search..." class="block focus:shadow-[2px_2px_10px_#dd2a60] md:w-[350px]">
+      <br>    
+       <button class="block md:w-[120px] focus:shadow-[0px_0px_3px_5px_#bc496c]">search</button>
+
+      </div>   <!-- /main-search -->
+
+      <div class="main_products mt-12 grid grid-cols-1 md:grid-cols-3 gap-10">
+
+      
+      </div>     <!-- /main_products -->
+
+
+
+
+   </section>
+   </main>
+
+
+      
+      <script src="js/script.js"></script>
+      <script src="js/user.js"></script>
+   </body>
+</html>
